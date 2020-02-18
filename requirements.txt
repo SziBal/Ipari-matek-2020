@@ -1,3 +1,0 @@
-numpy
-random
-matplotlib.pyplot
