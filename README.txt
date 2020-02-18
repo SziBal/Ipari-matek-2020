@@ -20,9 +20,10 @@ Alapvetően az első 4 feladat bonyolúltságukat tekintve egy main-ben fut (a t
   
   b, Az elözőekhez hasonlóan létrehozzuk a B=np.all(mátrix,axis=0) tömböt, majd ennek elemeit átírva int-ekre (False->0,True->1) ezt is eggyel balra eltolva B-hez adtam új sorként, végén 0-val bővítve*. Ekkor az oszlopban lévő két elemet összeszorozva megkapjuk, hol volt hosszabb fékezés (ez elözőhőz elég hasonló).
   
-  Pl.:  0 0 1 1 1 0 1 0 1 1 1 -> 3 fékezés van benne, de ez még 7 fékezést lát
-        0 1 1 1 0 1 0 1 1 1 0
+  Pl.:  
+0 0 1 1 1 0 1 0 1 1 1 -> 3 fékezés van benne, de ez még 7 fékezést lát
+0 1 1 1 0 1 0 1 1 1 0
         
-       =0 0 1 1 0 0 0 0 1 1 0 -> 4 "egymást követő"/fékezés folytatási darab van
+0 0 1 1 0 0 0 0 1 1 0 -> 4 "egymást követő"/fékezés folytatási darab van
        
  Végül hogy megkapjuk a fékezések számát: np.sum(B)-np.sum("B keletkezett tömb", azaz az összes 3 hosszú fékezés-összes fékezés folytatás darab.
