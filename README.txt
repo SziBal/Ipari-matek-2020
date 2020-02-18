@@ -1,6 +1,6 @@
 # Ipari-matek-2020
 
-Alapvetően az első 4 feladat bonyolúltságukat tekintve egy main-ben fut (a teszt esetek), és külső file-okból importálva a konkrét feladatokat. (https://github.com/zsvizi/course-industrial-maths)
+Alapvetően az első 4 feladat bonyolúltságukat tekintve egy main-ben fut (a teszt esetek), és külső file-okból importálva a konkrét feladatokat. (https://github.com/zsvizi/course-industrial-maths )
 
 1. Feladat
   Az bal felső sarokból indulva kiszámoljuk a 2x2-es blokkok tartalmát, melyeket annak bal felső sarkába le is mentetjük, mivel azt már úgyse kell többször felhasználnunk. Ezt elvégezzük a 10x10-es mátrix első 9 sorára és oszlopára, így megkapjuk a kivánt eredményeket, de még benne van a mátrix 10-ik sora és oszlopa amiket törlünk.
